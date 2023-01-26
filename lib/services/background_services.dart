@@ -2,9 +2,9 @@ import 'package:flutter_background/flutter_background.dart';
 
 class BackgroundService {
   final androidConfig = const FlutterBackgroundAndroidConfig(
-    notificationTitle: "flutter_background example app",
+    notificationTitle: "Soil Moisture Monitor",
     notificationText:
-        "Background notification for keeping the example app running in the background",
+        "Soil Moisture Monitor app running in the background",
     notificationImportance: AndroidNotificationImportance.Default,
     notificationIcon: AndroidResource(
         name: 'background_icon',
