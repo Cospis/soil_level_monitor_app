@@ -98,8 +98,6 @@ class SoilMostureController extends GetxController {
             print('$percentageVal is greater than threshold');
           }
 
-          // localNotificationServices.showNotification(percentageVal);
-
           update();
         }) ??
         client.published?.listen((MqttPublishMessage message) {
