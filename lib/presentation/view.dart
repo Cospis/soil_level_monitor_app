@@ -86,32 +86,7 @@ class _SoilMoisturePageViewState extends State<SoilMoisturePageView> {
                         ),
                       ),
                     ),
-                    // SizedBox(
-                    //   height: size.height * 0.8,
-                    //   width: size.width * 0.12,
-                    //   child: Column(
-                    //     children: [
-                    //       Expanded(
-                    //         child: Container(
-                    //           width: size.width * 0.12,
-                    //           height: size.height *
-                    //               0.8 *
-                    //               (100.0 -
-                    //                   controller.percentageVal.toDouble() /
-                    //                       100),
-                    //           color: Colors.white,
-                    //         ),
-                    //       ),
-                    //       Container(
-                    //         width: size.width * 0.12,
-                    //         height: size.height *
-                    //             0.8 *
-                    //             (controller.percentageVal.toDouble() / 100),
-                    //         color: Colors.blue[100],
-                    //       ),
-                    //     ],
-                    //   ),
-                    // ),
+                   
                     Positioned(
                       child: Column(
                         children: [
